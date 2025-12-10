@@ -2,12 +2,7 @@ document.getElementById("shopBtn").addEventListener("click", function() {
   document.getElementById("products").scrollIntoView({ behavior: "smooth" });
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  const scrub1 = document.getElementById("Scrub1");
-  scrub1.addEventListener("click", () => {
-    alert("Available!");
-  });
-});
+document.getElementsByTagName("Scrub 1")[1].onclick = function () { alert("Available!"); };
 
 document.getElementById("regForm").addEventListener("submit", function(e) {
 e.preventDefault();
