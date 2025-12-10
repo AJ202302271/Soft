@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
- <link rel="stylesheet" href="style.css">
+<head>
+  <meta charset="UTF-8">
+  <title>Products</title>
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+</head>
 <body>
-  <section id="products" class="products">
+
 <header>
   <h1>SOFT</h1>
   <nav>
@@ -14,15 +16,23 @@
     <a href="contact.html">Contact</a>
   </nav>
 </header>
+
+<section id="products" class="products">
   <h2>Our Products</h2>
+
   <div class="product-list">
+    <div class="card">
+      <img src="orange scrub.png" onclick="Oscrub()" alt="Scrub 1">
+      <h3>Orange Scrub</h3>
+      <p>Gently scrubs your skin and makes it soft and smooth.</p>
+      <p>4.00 BD</p>
+    </div>
 
     <div class="card">
-  <img src="orange scrub.png" onclick="Oscrub()" alt="Scrub 1">
-  <h3>Orange Scrub</h3>
-  <p>Gently scrubs your skin and makes it soft and smooth.</p>
-  <br><br>
-  <p>4.00 BD</p>
+      <img src="coffee scrub.png" onclick="Oscrub()" alt="Scrub 2">
+      <h3>Coffee Scrub</h3>
+      <p>Helps brighten your skin and wakes it up a bit.</p>
+      <p>5.00 BD</p>
     </div>
 
     <div class="card">
@@ -92,14 +102,24 @@
       <p>2.00 BD</p>
     </div>
 
-  </div>
+   </div>
 </section>
- <footer>
+
+<footer>
   <p>© 2025 SOFT — All Rights Reserved</p>
-<a href="https://www.instagram.com/soft.strawberryy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><img src="Instagram.png" alt="insta" style="width:42px;height:45px;"></a> 
-  <a href="https://wa.me/+97338885136"><img src="Whatsapp.png" alt="insta" style="width:42px;height:45px;"></a> 
+  <a href="https://www.instagram.com/soft.strawberryy">
+    <img src="Instagram.png" alt="insta" style="width:42px;height:45px;">
+  </a>
+  <a href="https://wa.me/+97338885136">
+    <img src="Whatsapp.png" alt="whatsapp" style="width:42px;height:45px;">
+  </a>
 </footer>
 
-<script src="script.js"></script>
- </body>
-</html> 
+<script>
+  function Oscrub() {
+    alert("Available!");
+  }
+</script>
+
+</body>
+</html>
