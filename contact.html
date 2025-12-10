@@ -22,28 +22,32 @@
 <section id="contact" class="contact">
 
 <div class="page">
-    
     <div class="contactMid">
-      
-<div class="container">
-<h2>Contact Us</h2>
+        <div class="container">
+            <h2>Contact Us</h2>
 
-<form id="regForm" action="https://formspree.io/f/xwpgrwan" method="POST">
-<label>Name
-<input type="text" id="name" placeholder="Enter your name" required /></label>
+            <form id="regForm" action="https://formspree.io/f/xwpgrwan" method="POST">
 
+                <label>Name
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                </label>
 
-<label>Email
-<input type="email" id="email" placeholder="example@mail.com" required /></label>
+                <label>Email
+                    <input type="email" id="email" name="email" placeholder="example@mail.com" required />
+                </label>
 
+                <label>Description
+                    <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+                </label>
 
-<label>Description
-<textarea id="message" rows="4" placeholder="Write your message..." required></textarea></label>
+                <button type="submit">Send Message</button>
 
-
-<button type="submit">Send Message</button>
-</form>
+            </form>
+        </div>
+    </div>
 </div>
+
+</section>
 
       
 <form
